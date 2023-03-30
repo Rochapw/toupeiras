@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #96D43C;
+ 
+}
+main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+  
+}
+
+
+
+#toupeiras {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position:absolute;
+   padding-left:13.2rem;
+ 
+  }
+
+  #toupeira {
+    position:relative;
+    height:10.0rem;
+    width:25.0rem;
+    margin: auto;
+}
+#toupeira img {
+    position:absolute;
+    top:0;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+}
+#toupeira img.top {
+    animation-name: upDown;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+} 
+
+.top1 {
+  animation-duration: 12s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+.top2 {
+  animation-duration: 21s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+.top3 {
+  animation-duration: 10s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+.top4 {
+  animation-duration: 5s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+.top5 {
+  animation-duration: 32s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+.top11 {
+  animation-duration: 32s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+.top6 {
+  animation-duration: 21s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} .top7 {
+  animation-duration: 22s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} .top8 {
+  animation-duration: 14s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} .top9 {
+  animation-duration: 9s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} .top10 {
+  animation-duration:16s;
+  animation-name: upDown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} 
+
+
+
+
+
+@keyframes upDown {
+    0% {opacity:1;}
+    17% {opacity:1;}
+    25% {opacity:0;}
+    92% {opacity:0;}
+}
+#toupeira img:nth-of-type(6) {
+    animation-delay: 6ms;
+}
+	
+
